@@ -7,11 +7,15 @@ nav {
   background-color: #f47522 !important;
 }
 
+.bg-blueAlterra {
+  background-color: #19345e !important;
+}
+
 .font-orangeAlterra {
   color: #f47522 !important;
 }
 
-.font-navyAlterra {
+.font-bluAlterra {
   color: #19345e !important;
 }
 
@@ -30,5 +34,27 @@ a {
 .button-contact {
   text-decoration: none;
   line-height: 38px;
-  margin-left: 35px;
+  margin-left: 30px;
 }
+
+.borderLine {
+  border: solid red;
+}
+
+.borderLine3 {
+  border: solid yellow;
+}
+
+.borderLine2 {
+  border: solid black;
+}
+
+footer {
+  height: 141px;
+  font-size: 14px;
+}
+
+/* footer div:nth-child(1) {
+  text-align: center;
+  line-height: 141px;
+} */
