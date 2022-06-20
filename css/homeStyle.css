@@ -1,8 +1,4 @@
-nav {
-  /* border: solid black; */
-  height: 90px;
-}
-
+/* tol warna --------------------------*/
 .bg-orangeAlterra {
   background-color: #f47522 !important;
 }
@@ -14,6 +10,14 @@ nav {
 .font-navyAlterra {
   color: #19345e !important;
 }
+/* tol warna --------------------------*/
+
+/* awal header -------------------------*/
+nav {
+  height: 300px;
+  background-image: url(../img/bg-people@2x.png);
+  background-attachment: fixed !important;
+}
 
 a {
   font-size: 15px;
@@ -23,7 +27,6 @@ a {
   border: 1px solid #f47522;
   width: 130px;
   height: 38px;
-  /* padding: 5px; */
   border-radius: 50px;
 }
 
@@ -31,4 +34,10 @@ a {
   text-decoration: none;
   line-height: 38px;
   margin-left: 35px;
+}
+
+/* akhir header -------------------------*/
+
+main {
+  height: 10000px;
 }
