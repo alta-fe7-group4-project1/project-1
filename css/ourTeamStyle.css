@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: large;
+}
+
+body {
+    margin-top: 50px;
+    background-image: url(../img/ornament_batik.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: 0 120px;
+}
+
+#about {
+    display: grid;
+    justify-content: center;
+    height: 100px;
+}
+
+#utama {
+    background-image: url(../img/shutterstock_796346011@2x.png);
+    background-repeat: no-repeat;
+    background-position: 0 30px;
+    background-size: 200px;
+}
+
+
+#table {
+    display: grid;
+    align-content: center;
+}
+
+#table a {
+    text-decoration: none;
+}
+
+#border {
+    border: 2px solid;
+}
+
+footer .container-fluid {
+    height: 150px;
+    background-color: rgb(25, 52, 94);
+    color: white;
+    display: grid;
+    align-content: center;
+}
+
+#copy {
+    display: grid;
+    justify-content: right;
+    align-items: center;
+}
+
+#sosmed img {
+    margin-right: 20px;
+}
