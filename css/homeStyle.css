@@ -62,16 +62,14 @@ a {
 #meet-our-team {
   background-image: url(../img/ornament_batik2.png);
   background-repeat: no-repeat;
-  height: 500px;
 }
 
 .background-frame {
-  background-image: url(../img/shutterstock_796346011@2x.png);
+  background-image: url(../img/shutterstock_796346011@2x2.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  /* background-position: 130px, -130px; */
-  height: 350px;
-  width: 300px;
+  background-position: 20px, -20px;
+  height: 300px;
+  width: 260px;
 }
 
 .frame {
@@ -79,7 +77,8 @@ a {
   width: 225px;
   border: 10px solid #f47522;
 }
-/* akhir meet our team */
+/* akhir meet our team -----------------------------*/
+
 footer {
   height: 100px;
 }
