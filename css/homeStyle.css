@@ -36,9 +36,9 @@ a {
 
 /* akhir header -------------------------*/
 
-/* awal main----------------------------- */
+/* awal main================================*/
 
-/* awal jumbotron-------------------------------- */
+/* awal jumbotron============================ */
 #jumbotron .big-jumbotron {
   height: 743px;
   margin-top: 90px;
@@ -48,6 +48,23 @@ a {
 #jumbotron .small-jumbotron {
   box-shadow: 0px 3px 6px #00000029;
 }
+/* akhir jumbotron--------------------------- */
+
+/*awal ============================  */
+#about .main-about {
+  /* background-color: ; */
+  background: linear-gradient(rgba(25, 52, 94, 0.7), rgba(25, 52, 94, 0.7)), url(../img/bg-people@2x.png);
+  background-size: cover;
+}
+
+/* awal meet our team========================= */
+
+#meet-our-team {
+  background-image: url(../img/ornament_batik2.png);
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+
 .bm {
   border: solid red;
 }
