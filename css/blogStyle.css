@@ -1,6 +1,6 @@
-nav {
-    /* border: solid black; */
+header {
     height: 90px;
+    background-color: white;
   }
   
   .bg-orangeAlterra {
@@ -23,7 +23,6 @@ nav {
     border: 1px solid #f47522;
     width: 130px;
     height: 38px;
-    /* padding: 5px; */
     border-radius: 50px;
   }
   
@@ -40,18 +39,42 @@ nav {
     background-position: center;
   }
 
-  #isi {
-    margin-left: 50px;
-    margin-right: 50px;
+  .jumbotron {
+    height: 100px;
+    align-items: center;
+  }
+
+  #blog {
+    text-align: center;
+    padding: 50px;
   }
 
   #footer {
-    background-color: gray;
+    background-color: rgb(25, 52, 94);
   }
 
-  #garis {
-    margin-top: 60px;
+  #footerContainer {
+    /* display: flex; */
+    color: white;
+    /* justify-content: center; */
+    
+   
   }
 
+  #footerLogo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
 
-  
+  #footerSosmed {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+
+  #footerCopyright {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }

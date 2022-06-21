@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/ourTeam.css" />
+    <link rel="stylesheet" href="css/blogStyle.css" />
     <title>Team</title>
   </head>
   <body>
-    <header>
-      <nav class="container navbar navbar-expand-lg">
-        <div class="container-fluid">
+    <header class="container-fluid fixed-top">
+      <nav class="container navbar navbar-expand-lg" id="navigation">
+        <div class="container">
           <div>
             <a class="navbar-brand" href="#">
-              <img src="img/logo-ALTA@2x.png" alt="Logo Alterra" height="59.47px" />
+              <img src="img/logo-ALTA@2x.png" alt="Logo Alterra" height="60px" />
             </a>
           </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,20 +41,17 @@
           <a class="button-contact font-orangeAlterra" href="contact.html">Contact</a>
         </div>
       </nav>
-      <nav class="fixed-top" id="garis">
-          <hr>
-      </nav>
     </header>
 
     <main>
-      <section id="jumbotron"></section>
-      <section id="blog">
-        <h2>Blog</h2>
+      <section class="container">
+        <section class="jumbotron"></section>
+        <section id="blog"><h1>Blog</h1></section>
       </section>
       <section id="hero">
         <div class="hero"></div>
       </section>
-      <section id="isi">
+      <section class="container" id="isi">
         <h2>HOW TO BE SUCCESSFUL FREELANCER</h2>
         <p>Larry Stark - 7 januari 2020</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque soluta doloribus alias quam sapiente, natus, accusantium sint veritatis aperiam adipisci repudiandae placeat iusto libero eum enim ullam accusamus nihil animi temporibus. Dolor id iste et odit, harum quae voluptas porro placeat, minima laborum fuga ex at, quos sed error nam!.</p>
@@ -68,21 +65,34 @@
     <footer>
       <section>
         <div class="container-fluid" id="footer">
-          <div class="row" id="footerLogo">
-            <div class="col-sm-4">
-              <img src="img/logo-ALTA-v2@2x.png" alt="" height="50px">
+          <div class="container" id="footerContainer">
+            <div class="row">
+            <div class="col-sm-4" id="footerLogo">
+              <img src="img/logo-ALTA-v2@2x.png" alt="" height="60px">
             </div>
-            <div class="col-sm-4">
-              <img src="img/facebook.png" alt="" height="30px">
+            <div class="col-sm-4" id="footerSosmed">
+              <div class="container">
+                  <div class="row">
+                    <div class="col-sm-12" id="tulisanSosmed">
+                      <p>Sosial Media</p>
+                    </div>
+                    <div class="col-sm-12" id="logoSosmed">
+                      <img src="img/ic_fb.png" alt="" height="20px">
+                      <img src="img/ic_twitter.png" alt="" height="20px">
+                      <img src="img/ic_ig.png" alt="" height="20px">
+                      <img src="img/ic_linkedin.png" alt="" height="20px">
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-sm-4">
-              <p>Copyright</p>
+            <div class="col-sm-4" id="footerCopyright">
+              <p>Copyright @ 2019 Alterra</p>
             </div>
+          </div>
           </div>
         </div>
       </section>
     </footer>
-
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
