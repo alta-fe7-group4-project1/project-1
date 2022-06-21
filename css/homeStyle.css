@@ -1,4 +1,4 @@
-/* tol warna --------------------------*/
+/* tools color --------------------------*/
 .bg-orangeAlterra {
   background-color: #f47522 !important;
 }
@@ -10,13 +10,11 @@
 .font-navyAlterra {
   color: #19345e !important;
 }
-/* tol warna --------------------------*/
+/* tools color --------------------------*/
 
 /* awal header -------------------------*/
-nav {
+header {
   height: 90px;
-  background-image: url(../img/bg-people@2x.png);
-  background-attachment: fixed !important;
 }
 
 a {
@@ -38,6 +36,27 @@ a {
 
 /* akhir header -------------------------*/
 
-main {
-  height: 10000px;
+/* awal main----------------------------- */
+
+/* awal jumbotron-------------------------------- */
+#jumbotron .big-jumbotron {
+  height: 743px;
+  margin-top: 90px;
+  background-color: #edf6ff;
 }
+
+#jumbotron .small-jumbotron {
+  box-shadow: 0px 3px 6px #00000029;
+}
+.bm {
+  border: solid red;
+}
+
+.bb {
+  border: solid blue;
+}
+.bh {
+  border: solid green;
+}
+
+/* akhir main-------------------------------- */
