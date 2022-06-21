@@ -50,19 +50,38 @@ a {
 }
 /* akhir jumbotron--------------------------- */
 
-/*awal ============================  */
+/*awal about ============================ */
 #about .main-about {
   /* background-color: ; */
   background: linear-gradient(rgba(25, 52, 94, 0.7), rgba(25, 52, 94, 0.7)), url(../img/bg-people@2x.png);
   background-size: cover;
 }
+/* akhir about ------------------------------ */
 
 /* awal meet our team========================= */
-
 #meet-our-team {
   background-image: url(../img/ornament_batik2.png);
   background-repeat: no-repeat;
-  height: 1000px;
+  height: 500px;
+}
+
+.background-frame {
+  background-image: url(../img/shutterstock_796346011@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: 130px, -130px; */
+  height: 350px;
+  width: 300px;
+}
+
+.frame {
+  height: 265px;
+  width: 225px;
+  border: 10px solid #f47522;
+}
+/* akhir meet our team */
+footer {
+  height: 100px;
 }
 
 .bm {
