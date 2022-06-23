@@ -11,6 +11,18 @@
   }
 /* tool */
 
+.bg-orangeAlterra {
+    background-color: #f47522 !important;
+  }
+  
+  .font-orangeAlterra {
+    color: #f47522 !important;
+  }
+  
+  .font-navyAlterra {
+    color: #19345e !important;
+  }
+
 body {
     margin-top: 50px;
     background-image: url(../img/ornament_batik.png);
@@ -75,7 +87,7 @@ main {
 .frame-frontend {
     height: 265px;
     width: 220px;
-    border: 10px solid rgb(25, 52, 94);
+    border: 10px solid #19345e;
 }
 
 #table {
@@ -84,8 +96,13 @@ main {
     margin-top: 40px;
 }
 
+#table tr {
+    color: #19345e;
+}
+
 #table a {
     text-decoration: none;
+
 }
 
 #education img {
