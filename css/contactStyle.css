@@ -105,6 +105,27 @@ section p a {
 form label span {
   color: red;
 }
+/* akhir form ------------------------ */
+
+/* awal footer ========================= */
+footer .container-fluid {
+  height: 150px;
+  background-color: rgb(25, 52, 94);
+  color: white;
+  display: grid;
+  align-content: center;
+}
+
+#copy {
+  display: grid;
+  justify-content: right;
+  align-items: center;
+}
+
+#sosmed img {
+  margin-right: 20px;
+}
+/* akhir footer --------------------------- */
 
 /* =================medai query ============= */
 @media only screen and (max-width: 768px) {
