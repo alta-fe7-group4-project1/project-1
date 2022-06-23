@@ -85,7 +85,7 @@ main {
 }
 
 footer .container-fluid {
-    height: 150px;
+    min-height: 150px;
     background-color: rgb(25, 52, 94);
     color: white;
     display: grid;
