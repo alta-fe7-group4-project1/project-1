@@ -14,11 +14,43 @@
 .font-navyAlterra {
   color: #19345e !important;
 }
+
+.bm {
+  border: solid red;
+}
+
+.bb {
+  border: solid blue;
+}
+.bh {
+  border: solid green;
+}
+
 /* tools color --------------------------*/
 
-/* awal header -------------------------*/
+/* judul=================================== */
+.areajudul {
+  height: 176px;
+  text-align: center;
+  padding: 60px 100px;
+}
+.text-judul {
+  font-size: 45px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 700;
+  color: #19345e;
+}
+
+.text-judul:after,
+.text-judul:before {
+  content: '\2014';
+  color: #f47522;
+}
+
+/* awal header ============================*/
 header {
   height: 90px;
+  box-shadow: 0px 3px 6px #c1c3c736;
 }
 
 header nav a {
@@ -37,5 +69,39 @@ header nav a {
   line-height: 38px;
   margin-left: 35px;
 }
-
 /* akhir header -------------------------*/
+
+/* Get In Touch =================== */
+
+.tittle {
+  margin: 170px 0 60px 0;
+  font-size: 45px;
+}
+
+/* ================================= awal list contact */
+section p a {
+  text-decoration: none;
+  color: #19345e;
+}
+
+.list-contact p,
+.list-contact div {
+  margin: 8px 0 0 13px;
+}
+
+.list-contact figcaption {
+  margin-top: 20px;
+}
+
+.list-contact p img {
+  margin-top: -0.5px;
+}
+
+.list-contact figcaption:nth-child(1) {
+  margin-top: 0;
+}
+
+/* awal form ============================== */
+form label span {
+  color: red;
+}
