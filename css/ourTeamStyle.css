@@ -1,3 +1,16 @@
+/* tool */
+.bm {
+    border: solid red !important;
+  }
+  
+  .bb {
+    border: solid blue !important;
+  }
+  .bh {
+    border: solid green !important;
+  }
+/* tool */
+
 * {
     padding: 0;
     margin: 0;
@@ -9,7 +22,16 @@ body {
     background-image: url(../img/ornament_batik.png);
     background-size: 100px;
     background-repeat: no-repeat;
-    background-position: 0 120px;
+    background-position-x: left;
+    background-position-y: top;
+}
+
+main {
+    background-image: url(../img/ornament_batik.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
 }
 
 #about {
@@ -18,17 +40,36 @@ body {
     height: 100px;
 }
 
-#utama {
+.background-frame {
     background-image: url(../img/shutterstock_796346011@2x.png);
     background-repeat: no-repeat;
-    background-position: 0 30px;
-    background-size: 200px;
+    background-position: 20px, -20px;
+    height: 300px;
+    width: 250px;
+    background-size: 220px;
+  }
+
+.space {
+    height: 35px;
 }
 
+.frame {
+    height: 265px;
+    width: 220px;
+    border: 10px solid #f47522;
+
+}
+
+.frame-frontend {
+    height: 265px;
+    width: 220px;
+    border: 10px solid rgb(25, 52, 94);
+}
 
 #table {
     display: grid;
     align-content: center;
+    margin-top: 40px;
 }
 
 #table a {
@@ -51,12 +92,11 @@ footer .container-fluid {
     align-content: center;
 }
 
-#copy {
+#copyright {
     display: grid;
-    justify-content: right;
-    align-items: center;
+    align-items: center
 }
 
 #sosmed img {
-    margin-right: 20px;
+    margin-right: 10px;
 }
