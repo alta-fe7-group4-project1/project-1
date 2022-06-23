@@ -105,3 +105,11 @@ section p a {
 form label span {
   color: red;
 }
+
+/* =================medai query ============= */
+@media only screen and (max-width: 768px) {
+  .border-md-down {
+    border: solid #19345e;
+  }
+}
+/* @include media-breakpoint-down(md) { ... } */
