@@ -113,10 +113,6 @@ header nav a {
 
 /* akhir meet our team -----------------------------*/
 
-footer {
-  height: 100px;
-}
-
 .bm {
   border: solid red;
 }
@@ -132,21 +128,20 @@ footer {
 
 /* awal footer ========================= */
 footer .container-fluid {
-  height: 150px;
+  min-height: 150px;
   background-color: rgb(25, 52, 94);
   color: white;
   display: grid;
   align-content: center;
 }
 
-#copy {
+#copyright {
   display: grid;
-  justify-content: right;
   align-items: center;
 }
 
 #sosmed img {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 /* akhir footer --------------------------- */
 
