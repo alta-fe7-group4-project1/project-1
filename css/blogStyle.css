@@ -49,32 +49,19 @@ header {
     padding: 50px;
   }
 
-  #footer {
+  footer .container-fluid {
+    height: 150px;
     background-color: rgb(25, 52, 94);
-  }
-
-  #footerContainer {
-    /* display: flex; */
     color: white;
-    /* justify-content: center; */
-    
-   
-  }
+    display: grid;
+    align-content: center;
+}
 
-  #footerLogo {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-  }
+#copyright {
+    display: grid;
+    align-items: center
+}
 
-  #footerSosmed {
-    display: flex;
-    justify-content: center;
-    align-items:center;
-  }
-
-  #footerCopyright {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-  }
+#sosmed img {
+    margin-right: 10px;
+}
