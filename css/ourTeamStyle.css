@@ -11,12 +11,6 @@
   }
 /* tool */
 
-* {
-    padding: 0;
-    margin: 0;
-    font-size: large;
-}
-
 body {
     margin-top: 50px;
     background-image: url(../img/ornament_batik.png);
@@ -25,6 +19,24 @@ body {
     background-position-x: left;
     background-position-y: top;
 }
+
+/* judul */
+.bagianJudul{
+    height: 176px;
+    text-align: center;
+    padding: 60px 100px;
+  }
+  .judul{
+      font-size: 35px;
+      font-family: 'Muli', sans-serif;
+      font-weight: 600;
+  
+  }
+  .judul:after, .judul:before{
+      content: '\2014';
+      color: #f47522;
+  }
+  /* selesai judul*/
 
 main {
     background-image: url(../img/ornament_batik.png);
