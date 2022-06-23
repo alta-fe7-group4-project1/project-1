@@ -10,11 +10,6 @@
   border: solid green !important;
 }
 /* tool */
-
-header {
-    height: 90px;
-    background-color: white;
-  }
   
   .bg-orangeAlterra {
     background-color: #f47522 !important;
@@ -28,6 +23,11 @@ header {
     color: #19345e !important;
   }
   
+  header {
+    height: 90px;
+    background-color: white;
+  }
+
   a {
     font-size: 15px;
   }
@@ -44,6 +44,24 @@ header {
     line-height: 38px;
     margin-left: 35px;
   }
+
+  /* judul */
+.bagianJudul{
+  height: 176px;
+  text-align: center;
+  padding: 60px 100px;
+}
+.judul{
+    font-size: 35px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+
+}
+.judul:after, .judul:before{
+    content: '\2014';
+    color: #f47522;
+}
+/* selesai judul*/
 
   #hero {
     height: 200px;
