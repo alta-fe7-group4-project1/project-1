@@ -59,6 +59,7 @@ a {
   /* background-color: ; */
   background: linear-gradient(rgba(25, 52, 94, 0.7), rgba(25, 52, 94, 0.7)), url(../img/bg-people@2x.png);
   background-size: cover;
+  background-position: center;
 }
 /* akhir about ------------------------------ */
 
@@ -81,6 +82,13 @@ a {
   width: 225px;
   border: 10px solid #f47522;
 }
+
+.frame-navy {
+  height: 265px;
+  width: 225px;
+  border: 10px solid #19345e;
+}
+
 /* akhir meet our team -----------------------------*/
 
 footer {
