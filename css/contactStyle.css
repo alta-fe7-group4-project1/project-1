@@ -34,6 +34,7 @@
   text-align: center;
   /* padding: 60px 100px; */
 }
+
 .judul {
   font-size: 45px;
   font-family: 'Muli', sans-serif;
@@ -112,23 +113,22 @@ form label span {
 }
 /* akhir form ------------------------ */
 
-/* awal footer ========================= */
+/* awal footer============================= */
 footer .container-fluid {
-  height: 150px;
+  min-height: 150px;
   background-color: rgb(25, 52, 94);
   color: white;
   display: grid;
   align-content: center;
 }
 
-#copy {
+#copyright {
   display: grid;
-  justify-content: right;
   align-items: center;
 }
 
 #sosmed img {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 /* akhir footer --------------------------- */
 
