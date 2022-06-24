@@ -212,6 +212,12 @@ footer .container-fluid {
   }
 }
 
+@media only screen and (max-width: 470px) {
+  .judul {
+    font-size: 27px;
+  }
+}
+
 @media only screen and (max-width: 350px) {
   #jumbotron .big-jumbotron .img-responsive {
     width: 220px;
@@ -234,5 +240,9 @@ footer .container-fluid {
 
   #jumbotron .small-jumbotron {
     margin-top: -230px;
+  }
+
+  .judul {
+    font-size: 22px;
   }
 }
