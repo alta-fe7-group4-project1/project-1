@@ -218,3 +218,21 @@ footer .container-fluid {
     margin-top: -230px;
   }
 }
+
+/* judul */
+.bagianJudul {
+  /* height: 176px; */
+  text-align: center;
+  /* padding: 60px 100px; */
+}
+.judul {
+  font-size: 45px;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+}
+.judul:after,
+.judul:before {
+  content: '\2014';
+  color: #f47522;
+}
+/* selesai judul*/
